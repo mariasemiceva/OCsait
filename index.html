@@ -1,98 +1,78 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Популярные операционные системы</title>
-    <meta charset="utf-8" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <div class="container">
-      <h1>Популярные операционные системы</h1>
-      <div class="row">
-        <div class="col-lg-6">
-          <h2>Windows</h2>
-          <img
-            src="https://www.microsoft.com/favicon.ico"
-            alt="Windows OS"
-            class="img-fluid"
-            width="50"
-          />
-          <p>
-            Windows является наиболее популярной операционной системой в мире.
-            Он поставляется на большинство ноутбуков и настольных компьютеров.
-            Windows предлагает обширный набор приложений и инструментов для
-            пользователей. На данный момент выходит Windows 10. Если вы хотите
-            узнать больше о Windows, посетите
-            <a href="https://www.microsoft.com/ru-ru/windows/"
-              >официальный сайт Windows</a
-            >.
-          </p>
-        </div>
-        <div class="col-lg-6">
-          <h2>macOS</h2>
-          <img
-            src="https://www.apple.com/favicon.ico"
-            alt="macOS OS"
-            class="img-fluid"
-            width="50"
-          />
-          <p>
-            macOS является операционной системой от Apple. Это предназначено для
-            работы на персональных компьютерах Macintosh и предлагает широкий
-            спектр программных приложений. На данный момент выходит macOS
-            Catalina. Если вы хотите узнать больше о macOS, посетите
-            <a href="https://www.apple.com/ru/macos/">официальный сайт macOS</a
-            >.
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6">
-          <h2>Linux</h2>
-          <img
-            src="https://www.linux.org/favicon.ico"
-            alt="Linux OS"
-            class="img-fluid"
-            width="50"
-          />
-          <p>
-            Linux - это открытая операционная система для настольных и серверных
-            компьютеров. Она имеет богатый набор приложений и инструментов,
-            которые могут использоваться при разработке и поддержке системы. На
-            данный момент существует множество дистрибутивов Linux. Если вы
-            хотите узнать больше о Linux, посетите
-            <a href="https://www.linux.org/">официальный сайт Linux</a>.
-          </p>
-        </div>
-        <div class="col-lg-6">
-          <h2>Chrome OS</h2>
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/2048px-Google_Chrome_icon_%28February_2022%29.svg.png"
-            alt="ChromeOS OS"
-            class="img-fluid"
-            width="50"
-          />
-          <p>
-            Chrome OS - это операционная система, основанная на открытом
-            исходном коде Chromium OS. Он разработан для работы на ноутбуках и
-            других портативных устройствах, которые оснащены процессорами ARM
-            или Intel. Вы можете использовать приложения Chrome и приложения
-            Android на Chrome OS. Если вы хотите узнать больше о Chrome OS,
-            посетите
-            <a href="https://www.google.com/chrome/"
-              >официальный сайт Chrome OS</a
-            >.
-          </p>
-        </div>
+
+<head>
+  <title>Популярные операционные системы</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <style>
+    b{
+      color: LightPink
+    }
+    div.background {
+        position: fixed;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        z-index: -1;
+      }
+        
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        min-width: 50%;
+        min-height: 50%;
+      }
+      g{
+        color: MistyRose
+      }
+  </style>
+</head>
+
+
+<body>
+  <div class="background">
+    <img src="phone1.jpg" />
+  </div>
+  <div class="container">
+    <h1><h><g>Популярные операционные системы</g></h></h1>
+    <div class="row">
+      <div class="col-lg-6">
+        <p>
+          <b>Операционная система – это комплекс взаимосвязанных системных программ,
+          функциями которого является контроль использования и распределения ресурсов вычислительной системы и
+          организация взаимодействия пользователя с компьютером.
+          Операционная система (ОС) играет роль связующего звена между
+          аппаратурой компьютера и выполняемыми программами, а также пользователем.
+          Операционные системы, развиваясь вместе с ЭВМ, прошли длинный путь от
+          простейших программ в машинных кодах размером всего в несколько мегабайт до современных,
+          написанных на языках высокого уровня, размер которых исчисляется гигабайтами.
+          Такой значительный рост размера операционных систем обусловлен,
+          главным образом, стремлением разработчиков «украсить» операционную систему, расширить ее возможности,
+          добавить возможности, изначально несвойственные операционным системам,
+          а также сделать интерфейс пользователя интуитивным. Все эти попытки дали свои результаты,
+          и положительные, и отрицательные.
+          Главным результатом стало усложнение настройки и программного интерфейса
+          при упрощении пользовательского.
+          Важной особенностью многих ОС является
+          способность их взаимодействия друг с другом, посредством сети,
+          что позволяет компьютерам взаимодействовать друг с другом,
+          как в рамках локальных вычислительных сетей (ЛВС), так и
+          в глобальной сети Интернет.</b>
+        </p>
       </div>
     </div>
-    <footer class="text-center center">
-      Сайт разработан Машей Семичевой. 2023 год. Все права защищены!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    </footer>
-  </body>
+  </div>
+  </div>
+  <footer class="text-center center">
+    <g>Website was developed by Maria Semicheva. 2023 All rights reserved.</g>
+  </footer>
+</body>
+
 </html>
