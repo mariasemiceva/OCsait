@@ -4,48 +4,39 @@
 <head>
   <title>Популярные операционные системы</title>
   <meta charset="utf-8" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
   <style>
-    b{
-      color: LightPink
+    div.container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url(phone1.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: -1;
     }
-    div.background {
-        position: fixed;
-        top: -50%;
-        left: -50%;
-        width: 200%;
-        height: 200%;
-        z-index: -1;
-      }
-        
-      img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        margin: auto;
-        min-width: 50%;
-        min-height: 50%;
-      }
-      g{
-        color: MistyRose
-      }
+
+    g,
+    h1 {
+      color: MediumVioletRed
+    }
+
+    p {
+      color: MistyRose
+    }
   </style>
 </head>
 
 
 <body>
-  <div class="background">
-    <img src="phone1.jpg" />
-  </div>
   <div class="container">
-    <h1><h><g>Популярные операционные системы</g></h></h1>
+    <h1>Популярные операционные системы</h1>
     <div class="row">
       <div class="col-lg-6">
         <p>
-          <b>Операционная система – это комплекс взаимосвязанных системных программ,
+          Операционная система – это комплекс взаимосвязанных системных программ,
           функциями которого является контроль использования и распределения ресурсов вычислительной системы и
           организация взаимодействия пользователя с компьютером.
           Операционная система (ОС) играет роль связующего звена между
@@ -64,7 +55,7 @@
           способность их взаимодействия друг с другом, посредством сети,
           что позволяет компьютерам взаимодействовать друг с другом,
           как в рамках локальных вычислительных сетей (ЛВС), так и
-          в глобальной сети Интернет.</b>
+          в глобальной сети Интернет.
         </p>
       </div>
     </div>
