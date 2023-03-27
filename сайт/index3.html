@@ -1,94 +1,139 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Популярные операционные системы</title>
-    <meta charset="utf-8" />
-</head>
-<style>
-    div.container {
-        position: fixed;
-        top: 0;
-        left: 0;
+  <title>Page Title</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+    }
+
+    /* Style the header */
+    .header {
+      padding: 80px;
+      text-align: center;
+      background: #1abc9c;
+      color: white;
+    }
+
+    /* Increase the font size of the h1 element */
+    .header h1 {
+      font-size: 40px;
+    }
+
+    /* Style the top navigation bar */
+    .navbar {
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    /* Style the navigation bar links */
+    .navbar a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    /* Right-aligned link */
+    .navbar a.right {
+      float: right;
+    }
+
+    /* Change color on hover */
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    /* Column container */
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    /* Create two unequal columns that sits next to each other */
+    /* Sidebar/left column */
+    .side {
+      flex: 30%;
+      background-color: #f1f1f1;
+      padding: 20px;
+    }
+
+    /* Main column */
+    .main {
+      flex: 70%;
+      background-color: white;
+      padding: 20px;
+      font-size: 30px
+    }
+
+    /* Fake image, just for this example */
+    .fakeimg {
+      background-color: #aaa;
+      width: 100%;
+      padding: 20px;
+    }
+
+    /* Footer */
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: #ddd;
+    }
+
+    /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 700px) {
+      .row {
+        flex-direction: column;
+      }
+    }
+
+    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+    @media screen and (max-width: 400px) {
+      .navbar a {
+        float: none;
         width: 100%;
-        height: 100%;
-        background: url(whitefone.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        z-index: -1;
-        text-align: left;
-        padding: 20px
+      }
     }
-
-    p {
-        color: black;
-        text-align: justify;
-        width: 50%;
-    }
-
-    a {
-        color: darkred
-    }
-
-    h2, g {
-        text-align: center;
-        color:darkred
-    }
-
-    footer {
-        text-align: center
-    }
-</style>
+  </style>
+</head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <h2>Linux</h2>
-                <img1 src="https://www.linux.org/favicon.ico" alt="Linux OS" class="img-fluid" width="50" />
-                <p>
-                    Операционная система Linux является одной 
-                    из самых популярных операционных систем в мире. 
-                    Она была создана в 1991 году Линусом Торвальдсом 
-                    и является бесплатной и открытой операционной 
-                    системой.</p>
 
-                    <p>Linux - это открытая операционная система, 
-                    которая разрабатывается и поддерживается 
-                    сообществом программистов по всему миру. 
-                    Она используется для всех видов компьютеров, 
-                    от самых маленьких до очень больших.</p>
+  <div class="header">
+    <h1>ОС Linux</h1>
+  </div>
+  <div class="navbar">
+    <a href="https://mariasemiceva.github.io/OCsait/index.html">Главная</a>
+    <a href="https://mariasemiceva.github.io/OCsait/index1.html">Windows</a>
+    <a href="https://mariasemiceva.github.io/OCsait/index2.html">Mac OS</a>
+    <a href="https://mariasemiceva.github.io/OCsait/index4.html">Chrome OS</a>
+  </div>
+  <div class="row">
+    <div class="main">
+      <h2>История ОС Linux</h2>
+      <h5>Плюсы и минусы ОС Linux</h5>
+      <div class="fakeimg" style="height:200px;"><img src="linuxx.jpg.png"></div>
+      <p></p>
+      <br>
 
-                    <p>Преимущества Linux:
-                    *Легко настраивается и используется
-                    *Надежность и безопасность высокого уровня
-                    *Поддержка множества приложений и программного обеспечения
-                    *Высокая степень гибкости и производительности.</p>
-
-                    <p>Недостатки Linux:
-                    *Некоторые приложения и игры могут не работать под Linux
-                    *Отсутствие удобного графического интерфейса
-                    *Некоторые приложения могут быть дорогими или недоступными для Linux</p>
-
-                    <p>Операционная система Linux предлагает множество преимуществ 
-                    для пользователей, включая простоту использования, 
-                    безопасность и производительность. 
-                    Несмотря на некоторые недостатки, 
-                    Linux по-прежнему является популярной и очень 
-                    мощной операционной системой.</p>
-
-                    <p>В целом, Linux является отличной операционной 
-                    системой для многих различных задач, 
-                    и при правильном использовании может предоставить пользователю 
-                    многофункциональность и надежность. Если вы
-                    хотите узнать больше о Linux, посетите
-                    <a href="https://www.linux.org/">официальный сайт Linux</a>.
-                </p>
-                <footer class="text-center center">
-                    <g>Website was developed by Maria Semicheva. 2023 All rights reserved.</g>
-                </footer>
-            </div>
-        </div>
     </div>
+  </div>
+
+  <div class="footer">
+    <h2>Website was developed by Maria Semicheva. 2023 All rights reserved.</h2>
+  </div>
+
 </body>
+
+</html>
